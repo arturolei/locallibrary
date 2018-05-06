@@ -2,6 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 #arthur, luglio2386!
+#Recent test on Linda's other mac--> Superuser data is the same regardless of machine (may not be locally saved?)
 from .models import Author, Genre, Book, BookInstance
 
 #admin.site.register(Book)
